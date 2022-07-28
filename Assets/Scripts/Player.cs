@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     {
         float horizontalMovement = Input.GetAxisRaw("Horizontal");
         float verticalMovement = Input.GetAxisRaw("Vertical");
+
         playerRigidBody.velocity = new Vector2(horizontalMovement, verticalMovement);
     }
 }
