@@ -217,6 +217,7 @@ MonoBehaviour:
   moveSpeed: 4
   playerRigidBody: {fileID: 763470032}
   playerAnimator: {fileID: 763470036}
+  transitionName: 
 --- !u!50 &763470032
 Rigidbody2D:
   serializedVersion: 4
@@ -575,9 +576,25 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1811879615797669338, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
+      propertyPath: transitionAreaName
+      value: Town - 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1915655975986371449, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
       propertyPath: m_Name
       value: Area Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 1915655975986371450, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
+      propertyPath: sceneToLoad
+      value: Mountains
+      objectReference: {fileID: 0}
+    - target: {fileID: 1915655975986371450, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
+      propertyPath: transitionName
+      value: Moutains - 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1915655975986371450, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
+      propertyPath: transitionAreaName
+      value: Mountains - 1
       objectReference: {fileID: 0}
     - target: {fileID: 1915655975986371452, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
       propertyPath: m_RootOrder
