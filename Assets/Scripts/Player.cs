@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public static Player instance;
+
     [SerializeField] int moveSpeed;
     [SerializeField] Rigidbody2D playerRigidBody;
     [SerializeField] Animator playerAnimator;
@@ -11,6 +13,15 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
+        
         DontDestroyOnLoad(gameObject);
     }
 
