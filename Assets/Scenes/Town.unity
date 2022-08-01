@@ -578,7 +578,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1811879615797669338, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
       propertyPath: transitionAreaName
-      value: Town - 1
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1915655975986371449, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
       propertyPath: m_Name
@@ -588,6 +588,10 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: Mountains
       objectReference: {fileID: 0}
+    - target: {fileID: 1915655975986371450, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
+      propertyPath: theAreaEnter
+      value: 
+      objectReference: {fileID: 1915655974930225881}
     - target: {fileID: 1915655975986371450, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
       propertyPath: transitionName
       value: Moutains - 1
@@ -640,6 +644,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5447535053897071802, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447535053897071802, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
+--- !u!114 &1915655974930225881 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1811879615797669338, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
+  m_PrefabInstance: {fileID: 1915655974930225880}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af489ad424fafb444a2c1e1b03c4c945, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

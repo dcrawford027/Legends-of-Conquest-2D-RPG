@@ -131,9 +131,21 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1811879615797669338, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
+      propertyPath: transitionAreaName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1915655975986371449, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
       propertyPath: m_Name
       value: Area Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 1915655975986371450, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
+      propertyPath: theAreaEnter
+      value: 
+      objectReference: {fileID: 956952873}
+    - target: {fileID: 1915655975986371450, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
+      propertyPath: transitionAreaName
+      value: Mountains - 1
       objectReference: {fileID: 0}
     - target: {fileID: 1915655975986371452, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
       propertyPath: m_RootOrder
@@ -182,6 +194,17 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
+--- !u!114 &956952873 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1811879615797669338, guid: d136f389a32d9b64da3f09c1801856b7, type: 3}
+  m_PrefabInstance: {fileID: 956952872}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af489ad424fafb444a2c1e1b03c4c945, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1067437482
 GameObject:
   m_ObjectHideFlags: 0
